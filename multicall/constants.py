@@ -75,7 +75,7 @@ MULTICALL2_ADDRESSES: Dict[int,str] = {
     Network.Cronos: '0x5e954f5972EC6BFc7dECd75779F10d848230345F',
     Network.Optimism: '0x2DC0E2aa608532Da689e89e237dF582B783E552C',
     Network.OptimismKovan: '0x2DC0E2aa608532Da689e89e237dF582B783E552C',
-    Network.Kava: '0x45be772faE4a9F31401dfF4738E5DC7DD439aC0b',
+    Network.Kava: '0x30A62aA52Fa099C4B227869EB6aeaDEda054d121',
 }
 
 # With default AsyncBaseProvider settings, some dense calls will fail
