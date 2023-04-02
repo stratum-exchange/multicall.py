@@ -39,6 +39,8 @@ class Network(IntEnum):
     OptimismKovan = 69
     Kava = 2222
     KavaTestnet = 2221
+    zkSync = 324
+    zkSyncTestnet = 280
 
 MULTICALL_ADDRESSES: Dict[int,str] = {
     Network.Mainnet: '0xeefBa1e63905eF1D7ACbA5a8513c70307C1cE441',
@@ -56,6 +58,7 @@ MULTICALL_ADDRESSES: Dict[int,str] = {
     Network.OptimismKovan: '0x2DC0E2aa608532Da689e89e237dF582B783E552C',
     Network.Kava: '0x7ED7bBd8C454a1B0D9EdD939c45a81A03c20131C',
     Network.KavaTestnet: '0x1Af096bFA8e495c2F5Eeb56141E7E2420066Cf78',
+    Network.zkSyncTestnet: '0x11473d6e641df17cd6331d45b135e35b49edbea8'
 }
 
 MULTICALL2_ADDRESSES: Dict[int,str] = {
